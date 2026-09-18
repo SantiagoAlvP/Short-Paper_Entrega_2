@@ -1,0 +1,5 @@
+modelo,F1-macro CV (media),F1-macro CV (desv.),mejores hiperparámetros
+Línea base,0.30545321066945597,3.729424507278851e-05,-
+Regresión Logística,0.3482883837850241,0.021832080173428654,"{'class_weight': {0: 8.13, 1: 2.44, 2: 1.0}, 'C': 0.03}"
+Random Forest,0.3838445568271571,0.017504827352424698,"{'min_samples_leaf': 10, 'max_features': 0.2, 'max_depth': 10, 'class_weight': 'balanced_subsample'}"
+Gradient Boosting,0.36709670750494805,0.018755523419865954,"{'min_samples_leaf': 100, 'max_leaf_nodes': 31, 'max_depth': None, 'learning_rate': 0.05, 'l2_regularization': 1, 'class_weight': 'balanced'}"
