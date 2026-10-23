@@ -1,0 +1,13 @@
+estrategia,modelo,F1-macro CV (media),F1-macro CV (desv.),mejores hiperparámetros
+Sin tratamiento,Random Forest,0.30545321066945597,3.729424507278851e-05,"{'max_depth': 10, 'min_samples_leaf': 30}"
+Sin tratamiento,Gradient Boosting,0.3285661609641773,0.006590044528124637,"{'learning_rate': 0.1, 'max_depth': None}"
+Sin tratamiento,AdaBoost,0.32384196134703147,0.006161176687974268,"{'estimator__max_depth': 3, 'learning_rate': 0.5}"
+Pesos por clase,Random Forest,0.3851228379510967,0.017631749566516405,"{'class_weight': 'balanced_subsample', 'max_depth': 10, 'min_samples_leaf': 10}"
+Pesos por clase,Gradient Boosting,0.36709670750494805,0.018755523419865954,"{'class_weight': 'balanced', 'learning_rate': 0.05, 'max_depth': None}"
+Pesos por clase,AdaBoost,0.34829222124967096,0.017499787716540864,"{'estimator__class_weight': {0: 8.13, 1: 2.44, 2: 1.0}, 'estimator__max_depth': 3, 'learning_rate': 0.5}"
+SMOTENC,Random Forest,0.35711132918982585,0.018919971729293866,"{'max_depth': None, 'min_samples_leaf': 10, 'sampling_strategy': 'auto'}"
+SMOTENC,Gradient Boosting,0.3509270017020485,0.007985056451219495,"{'learning_rate': 0.05, 'max_depth': 3, 'sampling_strategy': 'mitad_mayoritaria'}"
+SMOTENC,AdaBoost,0.3568888653067091,0.011731948725648556,"{'estimator__max_depth': 3, 'learning_rate': 0.5, 'sampling_strategy': 'mitad_mayoritaria'}"
+SMOTEN,Random Forest,0.3381912054127757,0.005393730173644367,"{'max_depth': None, 'min_samples_leaf': 30, 'sampling_strategy': 'auto'}"
+SMOTEN,Gradient Boosting,0.35004977697549455,0.008634455207350723,"{'learning_rate': 0.1, 'max_depth': 3, 'sampling_strategy': 'mitad_mayoritaria'}"
+SMOTEN,AdaBoost,0.3559179587258597,0.006560873848150731,"{'estimator__max_depth': 3, 'learning_rate': 0.5, 'sampling_strategy': 'mitad_mayoritaria'}"
